@@ -1,0 +1,170 @@
+ /*
+filename: [Owen Byrne]
+Author: [Owen Byrne]
+created: [21/03/2019]
+last modified: [3/04/2019]
+description: [Assignment]
+*/
+/*makes the background an image, image credit to: */
+body {background-image: url(images/Bricks.jpg);}
+
+/*for all h1 changes color, size, type and adds a shadow */
+h1 {color: white;
+font-size: 4em;
+font-weight:bold;
+font-family:arial, Helvetica, sans-serif;
+text-align: center;
+text-shadow: 3px 2px #45c1f7;}
+
+/* for all h2 changes color, type and adds a shadow */
+h2 {color: white;
+text-decoration: underline #45c1f7;
+text-shadow: 3px 2px black;
+font-family: arial, Helvetica, sans-serif;}
+
+/* for the navigation menu it alters the text */
+nav a {text-decoration: none;
+padding: 0.2em 0.6em;
+border: none ;
+font-size: 25px;
+color:#000;
+font-family: arial, Helvetica, sans-serif;}
+
+/* aligns the nagivation to the center */
+nav {text-align: center;}
+
+/* changes the text type and color for all paragraphs */
+p.para {font-family: arial, Helvetica, sans-serif;
+color: white;}
+
+/* changes the legend text type */
+legend {font-family: arial, Helvetica, sans-serif;}
+
+/* changes all h4 text type and color */
+h4 {font-family: arial, Helvetica, sans-serif;
+color: white;}
+
+/* changes height and width of image1 */
+#image1 {height: 200px;
+width: auto;}
+/* changes the position for image1 */
+#image1 {position: absolute;
+right: 100px;
+top: -10px;}
+/* changes the height and makes the image float to the right of the page*/
+#image2 {height: 250px;
+float:right;}
+
+/* gives the fieldset a border radius */
+fieldset {border-radius: 25px;}
+
+/* when hovered over it gives a color and alters the text color*/
+a:hover {background-color: #689cc1;
+color:white;}
+
+/* changes the text color and type */
+a {color:white;
+font-family: arial, Helvetica, sans-serif;}
+
+/* changes the footer text type, size and color */
+footer {color:#000;
+font-size: 15px;
+font-family: arial, Helvetica, sans-serif;
+width: 100%;}
+
+/* Gives the border for the footer */
+footer {border: 5px white;
+border-top-style: double;
+border-left-style: none;
+border-right-style: none;
+border-bottom-style: none;
+clear: both;}
+
+/* Gives all asides a border */
+aside {border: 4px inset #45c1f7;
+border-radius: 14px;
+margin: 1em;
+padding: 1em;
+width: 25%;
+float: right;
+box-shadow: 10px 10px 5px #aaaa;}
+
+/* gives the border a broder and color*/
+header {border: 1px inset #45c1f7;
+margin: 0.5em;
+padding: 0.5em;
+background-color: #45c1f7;
+text-align: center;}
+
+/* changes the position of the text in the footer */
+footer p {display:inline-block; width:30%;}
+footer p:first-child {float:left;}
+footer p:nth-child(2) {text-align: center;}
+footer p:last-child {float: right;}
+
+/* changes the text size, type, color and alignment*/
+dt {font-family: arial, Helvetica, sans-serif;
+font-size: 1.4em;
+color: white;
+text-align: center;}
+
+/* changes the text type, color and alignnment */
+dd {font-family: arial, Helvetica, sans-serif;
+color: white;
+text-align: center;}
+
+/* floats the image to the right and adds a border*/
+#profile {float: right;
+border: inset white;}
+
+/* changes the text type in the table */
+table {font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;}
+
+/* gives a border */
+td, th {border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;}
+/* changes the background color  */
+th {background-color: white;}
+
+/* alternates the background color in the table */
+tr:nth-child(even) {background-color: #a0c1f7;}
+tr:nth-child(odd) {background-color: #d2e0f7;}
+
+/* changes the legend text type, color and makes it bold */
+legend {font-weight: bold;
+  font-family: arial, Helvetica, sans-serif;
+  color: white;}
+
+/* changes the label text type and color */
+label {font-family: arial, Helvetica, sans-serif;
+  color: white;}
+
+/* changes the lists text type and color */
+ol {font-family: arial, Helvetica, sans-serif;
+  color: white;}
+ul {font-family: arial, Helvetica, sans-serif;
+  color: white;}
+
+span {
+  color: white;
+  font-weight: bold;
+  font-family: arial, Helvetica, sans-serif;
+
+}
+
+#ipadlady {height: 250px;
+float:right;
+
+}
+
+#gang {float: center;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-family: arial, Helvetica, sans-serif;
+}
