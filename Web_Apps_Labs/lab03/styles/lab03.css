@@ -1,0 +1,14 @@
+/*
+filename: [Owen Byrne]
+Author: [Owen Byrne]
+created: [21/03/2019]
+last modified: [21/03/2019]
+description: [Refers to lab03.html]
+*/
+h1 {color:purple; font-size: 2em; font-weight:bold;}
+h2 {color:green;}
+h3 {color:lightblue;}
+aside, footer {font-style: italic;}
+(h1, h2, h3) {font-style: arial}
+table {border: 2px solid black;}
+#images {text-align: center}
